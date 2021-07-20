@@ -1,0 +1,57 @@
+.editable-cell {
+    position: relative;
+    marginTop: -30px
+}
+
+/*.editable-cell-value-wrap {*/
+/*padding: 5px 12px;*/
+/*cursor: pointer;*/
+/*}*/
+
+.editable-row:hover {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+}
+
+.ant-card.ant-card-bordered:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.footerCss {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    /*background: gainsboro;*/
+    background-color: #ffffff;
+    text-align: center;
+    height: 10px;
+    line-height: 15px;
+    border-top: 1px solid #E0E0E0;
+}
+
+.css-item-breadscrumb{
+    position: relative;
+    -moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    -webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    background: white;
+}
+
+.highlight-child-comment-3d {
+    background-color: #edf4e8;
+    padding-left: 10px;
+}
+
+.highlight-comment-3d>div:nth-child(1) {
+    background-color: #edf4e8;
+    padding-left: 10px;
+}
+
+.highlight-child-comment-3d:hover{
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.highlight-comment-3d>div:nth-child(1):hover{
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
